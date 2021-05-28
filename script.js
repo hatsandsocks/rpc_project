@@ -16,5 +16,7 @@ function scissorsFunction() {
 
 function computerPlay() {
     var randomNumber = Math.floor((Math.random()*3)+1);
-    alert(randomNumber);
+    if (randomNumber === 1) {alert("rock");}
+    else if (randomNumber === 2) {alert("paper");}
+    else {alert("scissors");}
 }

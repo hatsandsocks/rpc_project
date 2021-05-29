@@ -1,7 +1,7 @@
 
 
 
-
+function choice() {var n = prompt("Rock, Paper, Scissors?")};
 
 function rockFunction() {
     alert("rock");
@@ -16,7 +16,10 @@ function scissorsFunction() {
 
 function computerPlay() {
     var randomNumber = Math.floor((Math.random()*3)+1);
-    if (randomNumber === 1) {alert("rock");}
-    else if (randomNumber === 2) {alert("paper");}
-    else {alert("scissors");}
+    if (randomNumber === 1) {return "rock";}
+    else if (randomNumber === 2) {return "paper";}
+    else return "scissors"
 }
+
+function playGame() {
+    }
